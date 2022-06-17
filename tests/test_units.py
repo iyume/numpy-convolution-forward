@@ -11,5 +11,6 @@ with open("dump/numpy_flatten.pkl", "rb") as f:
 
 
 print("test flattened result")
-print(np.allclose(framework_result, pure_result, rtol=0.000001))
-print(np.allclose(framework_result, pure_result, rtol=0.0001))
+print(np.allclose(framework_result, pure_result, rtol=1e-6))
+print(np.allclose(framework_result, pure_result, rtol=1e-5))
+print(np.allclose(framework_result, pure_result, rtol=1e-4))
