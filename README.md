@@ -1,6 +1,6 @@
 # Numpy Convolution Forward
 
-Numpy only convolution neural network forward implementation, implement the Conv2d, Linear, Pool2d, Activation, etc.
+Numpy only convolutional neural network forward implementation, implement the Conv2d, Linear, Pool2d, Activation, etc.
 
 ## Accuracy
 
